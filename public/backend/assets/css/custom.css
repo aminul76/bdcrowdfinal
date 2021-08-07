@@ -1,0 +1,123 @@
+/* top nav */
+
+.dashbord-top-nav {
+    background-color: white !important;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+body.layout-4.sidebar-mini .navbar {
+    left: 85px !important;
+}
+
+body.sidebar-mini .main-sidebar .sidebar-menu>li.active>a {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+
+/* start data table */
+
+.dataTables_wrapper .row:last-child {
+    padding: 20px 36px;
+}
+
+.dataTables_filter .form-control {
+    position: relative;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    position: relative;
+    z-index: 1;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: white !important;
+}
+
+.table:not(.table-sm) thead th {
+    border-bottom: none !important;
+    background-color: white !important;
+    color: #495288 !important;
+    border-top: 1px solid rgba(22, 33, 104, 0.1);
+}
+
+.dataTables_wrapper .table.table-md th,
+.dataTables_wrapper .table.table-md td {
+    padding: 10px 0px !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none !important;
+}
+
+.dataTables_wrapper .custom-file,
+.dataTables_wrapper .custom-file-label,
+.dataTables_wrapper .custom-select,
+.dataTables_wrapper .custom-file-label:after,
+.dataTables_wrapper .form-control[type="color"],
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2rem + 0px) !important;
+}
+
+.input-group-text,
+select.form-control:not([size]):not([multiple]),
+.form-control:not(.form-control-sm):not(.form-control-lg) {
+    padding: 0px 15px !important;
+}
+
+
+/* end data table */
+
+
+/* product input */
+
+.bootstrap-tagsinput {
+    height: auto !important;
+    min-height: 42px !important;
+    padding-top: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #000 !important;
+}
+
+.bootstrap-tagsinput {
+    background-color: white !important;
+    border-color: #ced4da !important;
+    line-height: 32px !important;
+}
+
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+}
+
+.select2-container .select2-selection--multiple,
+.select2-container .select2-selection--single {
+    background-color: white !important;
+    border-color: #ced4da !important;
+}
+
+.note-editing-area {
+    border-right: 1px solid #ced4da;
+    border-left: 1px solid #ced4da;
+}
+
+.note-toolbar {
+    border: 1px solid #ced4da;
+}
+
+.section>*:first-child {
+    margin-top: 10px;
+}
+.youtubevideo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
